@@ -10,7 +10,7 @@ public class Comapretr implements Comparator {
         Integer I1=(Integer) o1;
         Integer i2=(Integer) o2;
         if(I1>i2) {
-            return 1;
+            return -1;
         }
 
         if (I1>i2){
